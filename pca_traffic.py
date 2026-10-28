@@ -1,5 +1,5 @@
 import pandas as pd
-from scapy.all import rdpcap, IP, TCP, UDP
+from scapy.all import rdpcap, IP, TCP, UDP, Ether, ls
 from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 
@@ -7,8 +7,11 @@ from sklearn.preprocessing import StandardScaler
 def extract_raw_features(pcap_path, max_packets=5000):
     packets = rdpcap(pcap_path, count=max_packets)
     feature_list = []
+
+    print(type(packets), packets, '\n')
     
     for pkt in packets:
+        print(type(pkt))
         if IP in pkt:
             features = {
                 'len': pkt.len,
@@ -26,4 +29,10 @@ def extract_raw_features(pcap_path, max_packets=5000):
 
 df = extract_raw_features('ipv4frags.pcap')
 
-print(df)
+ls(TCP)
+print("------------------------------------------------")
+ls(IP)
+print("------------------------------------------------")
+ls(Ether)
+
+#print(df)
