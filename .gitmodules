@@ -1,0 +1,3 @@
+[submodule "Intrusion-Detection-CICIDS2017"]
+	path = Intrusion-Detection-CICIDS2017
+	url = https://github.com/noushinpervez/Intrusion-Detection-CICIDS2017
