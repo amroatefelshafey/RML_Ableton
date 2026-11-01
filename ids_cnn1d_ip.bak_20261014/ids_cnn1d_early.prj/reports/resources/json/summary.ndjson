@@ -1,5 +1,0 @@
-{"name":"Kernel Summary", "summary_type":"performanceSummary", "columns":["Kernel Name", "Kernel Type", "Autorun", "Workgroup Size", "# Compute Units"]}
-{"name":"Estimated Resource Usage", "summary_type":"estimatedResources", "dsp_packing_factor":2, "columns":["Kernel Name", "ALUTs ", "FFs  ", "RAMs ", "DSPs ", "MLABs", "Frac. DSPs"]}
-{"name":"Total", "parent":"estimatedResources", "classes":["summary-highlight", "nohover"], "data":[0, 0, 0, 0, 0, 0], "data_percent":[0, 0, 0, 0]}
-{"name":"Available", "parent":"estimatedResources", "classes":["summary-highlight", "nohover"], "data":["109572", "219144", "514", "112", "985", "0"]}
-{"name":"Compile Warnings", "summary_type":"compileWarnings"}

@@ -1,4 +1,0 @@
-Compiler Command: aoc -o /tmp/myproject-68929a-4bdead.aocr /tmp/myproject-87c5d2_0.bc -sycl -rtl -dep-files=/tmp/myproject-84b59b.d,/tmp/myproject_test-a46833.d -output-report-folder=ids_cnn1d_ip.prj -g -vpfp-relaxed -hardware -target=5CSEMA5F31C6 -clock=20.0ns -optimize=latency
-/tmp/myproject-68929a-4bdead
-/tmp/myproject-68929a-4bdead
-Killed

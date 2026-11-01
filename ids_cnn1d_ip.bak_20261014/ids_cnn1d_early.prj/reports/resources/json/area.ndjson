@@ -1,1 +1,0 @@
-{"columns":["", "ALUTs", "FFs", "RAMs", "DSPs", "MLABs", "Frac. DSPs", "Details"], "dsp_packing_factor":2, "type":"module", "total_percent":[0, 0, 0, 0, 0], "total":[0, 0, 0, 0, 0, 0], "name":"Kernel System", "id":0, "depth":0, "max_resources":[109572, 219144, 514, 112, 5478]}

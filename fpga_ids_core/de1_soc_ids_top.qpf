@@ -1,5 +1,0 @@
-QUARTUS_VERSION = "25.1"
-DATE = "21:45:00  October 13, 2026"
-
-# Revisions
-PROJECT_REVISION = "de1_soc_ids_top"

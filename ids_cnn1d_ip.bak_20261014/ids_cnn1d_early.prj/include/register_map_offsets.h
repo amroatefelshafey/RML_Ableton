@@ -1,5 +1,0 @@
-#ifndef __REGISTER_MAP_OFFSET_H__
-#define __REGISTER_MAP_OFFSET_H__
-
-
-#endif // __REGISTER_MAP_OFFSET_H__

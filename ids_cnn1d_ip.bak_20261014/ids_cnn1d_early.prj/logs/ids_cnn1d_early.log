@@ -1,6 +1,0 @@
-Compiler Command: aoc -o /tmp/myproject-99ba19-729e12.aocr /tmp/myproject-cf33f6_0.bc -sycl -rtl -dep-files=/tmp/myproject-4edacd.d -output-report-folder=ids_cnn1d_early.prj -g -vpfp-relaxed -hardware -target=5CSEMA5F31C6 -clock=20ns
-/tmp/myproject-99ba19-729e12
-/tmp/myproject-99ba19-729e12
-WARNING: No kernels specified.
-WARNING: No kernels specified.
-WARNING: No kernels specified.
