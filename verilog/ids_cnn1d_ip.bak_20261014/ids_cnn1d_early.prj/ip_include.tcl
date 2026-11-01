@@ -1,0 +1,1 @@
+set_global_assignment -name SEARCH_PATH "/altera_hls/aclsycl/ip"

@@ -1,0 +1,257 @@
+m255
+K4
+z2
+Z0 !s12c _opt1
+Z1 !s99 nomlopt
+Z2 !s12c _opt
+R1
+R0
+R1
+R2
+R1
+!s11f vlog 2025.2 2025.05, May 31 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z3 d/home/horsie/Documents/Projects/IDS_Abelton/Move_ME/rtl/sim
+T_opt
+!i145 1
+!i144 0
+!s110 1793161992
+VNlEllT2k;>ob7A0^FlPkX2
+04 19 4 work tb_ids_cnn1d_engine fast 0
+=1-d0abd5efb3cf-6ae17b08-10db3-216a8
+R1
+Z4 !s12f OEM100
+Z5 !s12b OEM100
+!s124 OEM10U82 
+Z6 !s135 nogc
+Z7 o-quiet -auto_acc_if_foreign -work work
+Z8 tCvgOpt 0
+n@_opt
+Z9 OL;O;2025.2;82
+R3
+T_opt1
+!i145 1
+!i144 0
+!s110 1793162067
+VcEPInzP<SEdNT?k7QZ=z`3
+04 9 4 work tb_system fast 0
+=1-d0abd5efb3cf-6ae17b53-5e83c-21cee
+R1
+R4
+R5
+!s124 OEM10U171 
+R6
+R7
+R8
+n@_opt1
+R9
+vadder_tree
+Z10 2../src/ids_cnn1d_weights_pkg.sv|../src/adder_tree.sv|../src/ids_cnn1d_engine.sv|../src/hex_decoder.sv|../src/de1_soc_ids_top.sv|../src/ids_cnn1d_avmm.sv|../tb/tb_ids_cnn1d_engine.sv|../tb/tb_system.sv
+Z11 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
+Z12 !s110 1793162066
+!i10b 1
+!s100 2gCdO1^d7V>n0n@PiJ1943
+I`Pd^BmG:=fbOXYb<0WSTc1
+S1
+R3
+w1793161454
+8../src/adder_tree.sv
+F../src/adder_tree.sv
+!i122 6
+L0 8 22
+Z13 VDg1SIo80bB@j0V0VzS_@n1
+Z14 OL;L;2025.2;82
+r1
+!s85 0
+31
+Z15 !s108 1793162066.000000
+Z16 !s107 ../tb/tb_system.sv|../tb/tb_ids_cnn1d_engine.sv|../src/ids_cnn1d_avmm.sv|../src/de1_soc_ids_top.sv|../src/hex_decoder.sv|../src/ids_cnn1d_engine.sv|../src/adder_tree.sv|../src/ids_cnn1d_weights_pkg.sv|
+Z17 !s90 -sv|-quiet|../src/ids_cnn1d_weights_pkg.sv|../src/adder_tree.sv|../src/ids_cnn1d_engine.sv|../src/hex_decoder.sv|../src/de1_soc_ids_top.sv|../src/ids_cnn1d_avmm.sv|../tb/tb_ids_cnn1d_engine.sv|../tb/tb_system.sv|
+!i113 0
+Z18 o-quiet -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R8
+vde1_soc_ids_top
+R10
+R11
+Z19 DXx4 work 21 ids_cnn1d_weights_pkg 0 22 CX5G:cN<54Lm8EChbZZ:92
+R12
+!i10b 1
+!s100 Y:mDO97A5^COoOFNzWiOB1
+I86l]FHGXAH@bUocl@9m=J3
+S1
+R3
+w1793161785
+8../src/de1_soc_ids_top.sv
+F../src/de1_soc_ids_top.sv
+!i122 6
+L0 20 172
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R8
+vhex_decoder
+R10
+R11
+R12
+!i10b 1
+!s100 fVZ:^?:;ZCU5@e_iTOZ3S0
+I3Sl:52iF8afl_Z:QQ6j:91
+S1
+R3
+w1793161740
+8../src/hex_decoder.sv
+F../src/hex_decoder.sv
+!i122 6
+L0 2 27
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R8
+vids_cnn1d_avmm
+R10
+R11
+R19
+R12
+!i10b 1
+!s100 WCoKl7^<HDg`O[83gY0c52
+IMccQKP7GbX?UP]kMd^^;K3
+S1
+R3
+w1793161810
+8../src/ids_cnn1d_avmm.sv
+F../src/ids_cnn1d_avmm.sv
+!i122 6
+L0 20 74
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R8
+vids_cnn1d_engine
+R10
+R11
+R19
+R12
+!i10b 1
+!s100 Je;:262AK=lGIKG_Ikf5B0
+IZ7Ia_@b[nPeKO26J8<0ln3
+S1
+R3
+w1793161963
+8../src/ids_cnn1d_engine.sv
+F../src/ids_cnn1d_engine.sv
+!i122 6
+L0 24 274
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R8
+Xids_cnn1d_weights_pkg
+R10
+R11
+R12
+!i10b 1
+!s100 PadPzPmkQnC73UNa74ik>0
+ICX5G:cN<54Lm8EChbZZ:92
+S1
+R3
+w1793161990
+8../src/ids_cnn1d_weights_pkg.sv
+F../src/ids_cnn1d_weights_pkg.sv
+!i122 6
+L0 12 0
+VCX5G:cN<54Lm8EChbZZ:92
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R8
+vtb_ids_cnn1d_engine
+R10
+R11
+R19
+R12
+!i10b 1
+!s100 H:k2EdOK2KRmL<H^3>^c?2
+I1><jz;Djd<UBeNha^0CaT1
+S1
+R3
+w1793161575
+8../tb/tb_ids_cnn1d_engine.sv
+F../tb/tb_ids_cnn1d_engine.sv
+!i122 6
+L0 12 118
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R8
+vtb_system
+R10
+R11
+R19
+R12
+!i10b 1
+!s100 PfbYi9ZI:R;?65o:NX4XR3
+I?0dS3JeTRmm@5HehNjeaX1
+S1
+R3
+w1793161876
+8../tb/tb_system.sv
+F../tb/tb_system.sv
+!i122 6
+L0 11 113
+R13
+R14
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R18
+R8

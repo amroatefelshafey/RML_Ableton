@@ -1,0 +1,7 @@
+BEGIN 1:de1_soc_ids_top:fast:work
+    last_correct :  1:tb_system:fast:work
+    mismatches :  1:tb_system:fast:work
+    r_class :  1:tb_system:fast:work
+    last_ii :  1:tb_system:fast:work
+    r_idx :  1:tb_system:fast:work
+END 

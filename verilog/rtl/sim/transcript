@@ -1,0 +1,38 @@
+# ** Note: (vsim-220) '/home/horsie/altera_standard/25.1std/questa_fse/linux_x86_64/../modelsim.ini' is used as the ini file.
+# vsim -c -quiet tb_system -do "run -all; quit -f" 
+# Start time: 08:34:27 on Oct 28,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vopt-220) '/home/horsie/altera_standard/25.1std/questa_fse/linux_x86_64/../modelsim.ini' is used as the ini file.
+# //  Questa Altera Starter FPGA Edition-64
+# //  Version 2025.2 linux_x86_64 May 31 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# run -all
+# ok   top bench: correct per pass = 97
+# ok   top bench: cycles per sample = 15
+# ok   top bench: golden mismatches = 0
+# ok   top bench: LEDR[0] (mismatch) = 0
+# ok   top single: sample index = 1
+# ok   top single: predicted class = 3
+# ok   top single: LEDR[0] (attack) = 1
+# ok   avmm: ID = 492568577
+# ok   avmm: mismatching fields = 0
+# ok   avmm: result popped = 0
+# ok   avmm: COUNT = 300
+# ============================================================
+#  tb_system RESULT: PASS (0 failures)
+# ============================================================
+# ** Note: $finish    : ../tb/tb_system.sv(121)
+#    Time: 549791 ns  Iteration: 0  Instance: /tb_system
+# End time: 08:34:42 on Oct 28,2026, Elapsed time: 0:00:15
+# Errors: 0, Warnings: 0
