@@ -1,0 +1,91 @@
+Backend: oneAPI
+ClockPeriod: 20.0
+HLSConfig:
+  LayerName:
+    conv1:
+      Precision:
+        bias: fixed<8,3,TRN,WRAP>
+        result: auto
+        weight: fixed<8,3,TRN,WRAP>
+      ReuseFactor: 2
+      Trace: false
+    conv1_quantized_relu:
+      Precision:
+        result: ufixed<6,2,RND_CONV,SAT,0>
+      Trace: false
+    conv2:
+      Precision:
+        bias: fixed<4,3,TRN,WRAP>
+        result: auto
+        weight: fixed<4,3,TRN,WRAP>
+      ReuseFactor: 4
+      Trace: false
+    conv2_quantized_relu:
+      Precision:
+        result: ufixed<6,2,RND_CONV,SAT,0>
+      Trace: false
+    dense1:
+      Precision:
+        bias: fixed<4,3,TRN,WRAP>
+        result: auto
+        weight: fixed<4,3,TRN,WRAP>
+      ReuseFactor: 20
+      Trace: false
+    dense1_quantized_relu:
+      Precision:
+        result: ufixed<6,2,RND_CONV,SAT,0>
+      Trace: false
+    dense2:
+      Precision:
+        bias: fixed<8,3,TRN,WRAP>
+        result: auto
+        weight: fixed<8,3,TRN,WRAP>
+      ReuseFactor: 4
+      Trace: false
+    dense2_linear:
+      Precision:
+        result: auto
+      Trace: false
+    flatten:
+      Precision:
+        result: auto
+      Trace: false
+    input_1:
+      Precision:
+        result: auto
+      Trace: false
+    output_softmax:
+      Precision:
+        result: auto
+      Trace: false
+    pool1:
+      Precision:
+        result: auto
+      Trace: false
+  Model:
+    BitExact: null
+    BramFactor: 1000000000
+    Precision:
+      default: fixed<16,6>
+    ReuseFactor: 1
+    Strategy: Resource
+    TraceOutput: false
+HyperoptHandshake: false
+IOType: io_stream
+InputData: null
+InputShapes:
+  input_1:
+  - 16
+  - 4
+KerasModel: !keras_model 'ids_cnn1d_ip/keras_model.keras'
+OutputDir: ids_cnn1d_ip
+OutputPredictions: null
+OutputShapes:
+  layer12_out:
+  - 8
+Part: 5CSEMA5F31C6
+ProjectName: myproject
+Stamp: cbe38734
+Version: 1.0.0
+WriterConfig:
+  WriteTar: false

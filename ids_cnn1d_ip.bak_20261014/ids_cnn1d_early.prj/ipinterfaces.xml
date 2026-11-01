@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<board version="0.9" name="custom_ipa">
+    <global_mem name="__default__" default="1" max_bandwidth="0" config_addr="0x0" type="device private">
+        <interface name="__default__" type="agent" port="mem0" width="512" maxburst="16" address="0x0" latency="500" waitrequest="1" size="0x100000000"/>
+    </global_mem>
+    <device device_model="5csxfc6d6f31c8es_dm.xml">
+        <used_resources>
+            <alms num="0"/>
+            <ffs num="0"/>
+            <dsps num="0"/>
+            <rams num="0"/>
+        </used_resources>
+    </device>
+    <host>
+        <kernel_config start="0x0" size="0x100000"/>
+    </host>
+    <interfaces>
+        <interface name="board" type="host" port="kernel_cra" width="64" misc="0" cra_wrapper_type="high_fmax"/>
+        <interface name="board" type="irq" port="kernel_irq" width="1"/>
+        <interface name="board" type="freeze" port="freeze" width="1"/>
+        <kernel_clk_reset clk="board.kernel_clk" reset="board.kernel_reset"/>
+    </interfaces>
+    <channels/>
+</board>

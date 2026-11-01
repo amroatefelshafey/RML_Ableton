@@ -1,0 +1,10 @@
+1 21 ids_cnn1d_weights_pkg 4 fast 64 /home/horsie/Documents/Projects/IDS_Abelton/Move_ME/rtl/sim/work 0 0 0 0 12 0
+2 10 adder_tree 4 fast 64 /home/horsie/Documents/Projects/IDS_Abelton/Move_ME/rtl/sim/work 0 0 0 0 84 0
+2 10 adder_tree 7 fast__1 64 /home/horsie/Documents/Projects/IDS_Abelton/Move_ME/rtl/sim/work 0 0 0 0 84 0
+2 10 adder_tree 7 fast__2 64 /home/horsie/Documents/Projects/IDS_Abelton/Move_ME/rtl/sim/work 0 0 0 0 84 0
+2 10 adder_tree 7 fast__3 64 /home/horsie/Documents/Projects/IDS_Abelton/Move_ME/rtl/sim/work 0 0 0 0 84 0
+1 16 ids_cnn1d_engine 4 fast 64 /home/horsie/Documents/Projects/IDS_Abelton/Move_ME/rtl/sim/work 0 0 131072 0 8365 0
+2 11 hex_decoder 4 fast 64 /home/horsie/Documents/Projects/IDS_Abelton/Move_ME/rtl/sim/work 0 0 0 0 45 0
+1 15 de1_soc_ids_top 4 fast 64 /home/horsie/Documents/Projects/IDS_Abelton/Move_ME/rtl/sim/work 0 0 131072 0 9077 0
+1 14 ids_cnn1d_avmm 4 fast 64 /home/horsie/Documents/Projects/IDS_Abelton/Move_ME/rtl/sim/work 0 0 262144 0 8514 0
+1 9 tb_system 4 fast 64 /home/horsie/Documents/Projects/IDS_Abelton/Move_ME/rtl/sim/work 0 0 393216 0 18006 0
